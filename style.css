@@ -31,6 +31,84 @@ en medium 500
 Modification de la couleur du texte des liens et des boutons "prix" sur la carte
 */
 
-a,.items_list li .price {
+a,
+.items_list li .price {
 	color: #FB9F94;
 }
+
+/*
+Modification de la couleur du texte du nom des produits
+*/
+
+.items_list li a {
+    color:#FB9F94;
+  }
+  
+  /*
+  Modification de la couleur du texte des titres principaux
+  */
+  
+  #zwgth h1,
+  #address_conf h2,
+  #cart h5,
+  .mheader h3,
+  .restaurant_selection #resto h2 {
+      color:#FB9F94;
+  }
+  
+  /*
+  Modification de la couleur de fond des boutons
+  */
+  
+  .btn-primary,
+  .btn-primary.disabled,
+  .btn-primary[disabled],
+  .btn-primary[disabled]:hover,
+  .btn-primary.disabled:focus,
+  .btn-primary[disabled]:focus,
+  .btn-primary.disabled:active,
+  .btn-primary[disabled]:active  {
+      background-color: #FB9F94;
+      border-color: #FB9F94;
+  }
+  
+  /*
+  Modification de la couleur de fond des boutons (au survol et actifs)
+  */
+  
+  .btn-primary:active,
+  .btn-primary:active:focus,
+  .btn-primary:active:hover,
+  .btn-primary:focus,
+  .btn-primary:hover {
+      background-color: #FB9F94;
+      border-color: #FB9F94;
+  }
+  
+  /*
+  Modification de la couleur du texte des lien dans le panier
+  */
+  
+  #cart a, #cart a:focus, #cart a:hover {
+      color: #FB9F94;
+  }
+  
+  /*
+  Modification de la couleur de fond des principaux blocs :
+  - Le haut des modals
+  - Les catégories dans la carte
+  - Les restaurants dans la section d'un restaurant
+  - Les titres des options
+  */
+  .restaurant_selection .restaurants .active a,
+  .restaurant_selection .restaurants a:hover,
+  .restaurant_selection .restaurants a,
+  #zmodal .modal-header,
+  #cart #cart-toggle-btn .cart_nb_items,
+  .tag_list,
+  .tag_list a.nobg:hover .lab,
+  .tag_list .active a.nobg .lab,
+  #zmodal .part h4,
+  #zmodal .optionbox h4 {
+      background-color: #FB9F94;
+  }
