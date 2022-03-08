@@ -87,8 +87,8 @@ Modification de la couleur du texte du nom des produits
   .btn-primary:active:hover,
   .btn-primary:focus,
   .btn-primary:hover {
-      background-color: blue;
-      border-color: blue;
+      background-color: #FB9F94;
+      border-color: #FB9F94;
   }
   
   /*
