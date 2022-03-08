@@ -24,6 +24,7 @@ en medium 500
 */
 
 
+
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Bebas+Neue&display=swap');
 
 
@@ -86,8 +87,8 @@ Modification de la couleur du texte du nom des produits
   .btn-primary:active:hover,
   .btn-primary:focus,
   .btn-primary:hover {
-      background-color: #FB9F94;
-      border-color: #FB9F94;
+      background-color: blue;
+      border-color: blue;
   }
   
   /*
@@ -97,7 +98,7 @@ Modification de la couleur du texte du nom des produits
   #cart a, #cart a:focus, #cart a:hover {
       color: #FB9F94;
   }
-  
+
   /*
   Modification de la couleur de fond des principaux blocs :
   - Le haut des modals
