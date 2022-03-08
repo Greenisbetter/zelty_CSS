@@ -3,11 +3,12 @@ https://www.greenisbetter.fr/
 https://drive.google.com/drive/folders/10hEXak3ve2xlOK9dhjzXkpMGE4thnrME
 
 https://cyan-oval-2nyw.squarespace.com/config/pages
-
 https://bo.zelty.fr/web-widgets
 https://support.zelty.fr/hc/fr/articles/360023772592-Personnalisez-la-commande-en-ligne-%C3%A0-vos-couleurs
 
 https://github.com/Greenisbetter/zelty_CSS
+
+https://cdn.jsdelivr.net/gh/Greenisbetter/zelty_CSS/style.css
 */
 
 /* 
@@ -23,7 +24,13 @@ en medium 500
 */
 
 
-p{
-    color: #FB9F94;
-    color: #FA9F93;
+
+
+
+/*
+Modification de la couleur du texte des liens et des boutons "prix" sur la carte
+*/
+
+a,.items_list li .price {
+	color: #FB9F94;
 }
