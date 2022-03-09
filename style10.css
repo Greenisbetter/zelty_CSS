@@ -1,28 +1,3 @@
-/* 
-https://www.greenisbetter.fr/
-https://drive.google.com/drive/folders/10hEXak3ve2xlOK9dhjzXkpMGE4thnrME
-
-https://cyan-oval-2nyw.squarespace.com/config/pages
-https://bo.zelty.fr/web-widgets
-https://support.zelty.fr/hc/fr/articles/360023772592-Personnalisez-la-commande-en-ligne-%C3%A0-vos-couleurs
-
-https://github.com/Greenisbetter/zelty_CSS
-
-https://cdn.jsdelivr.net/gh/Greenisbetter/zelty_CSS/style.css
-*/
-
-/* 
-Donc voici les instructions de mise en page :
-- Couleur de fond : alterner avec le rose Green #FA9F93 ou approchante (voir charte) et le blanc pour un résultat harmonieux
-- Couleur de police : utiliser le rose green #FA9F93 ou approchante sur les fonds blanc, et une police couleur blanc sur les fond rose
-Le noir pourra aussi être utilisé pour certains textes (nous feront des essais) pour casser un peu
-
-https://fonts.google.com/specimen/Bebas+Neue?query=bebas+neue
-regular 400
-https://fonts.google.com/specimen/Arimo#standard-styles
-en medium 500
-*/
-
 @import url("https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Bebas+Neue&display=swap");
 
 * {
@@ -150,4 +125,12 @@ Modifie juste la taille de police du nom du restaurant
     font-size: 16px;
     font-style: normal;
     color: white;
+}
+
+.restaurant_selection .restaurants .active span,
+.restaurant_selection .restaurants span:hover ,
+.restaurant_selection .restaurants span{
+  font-size: 15px;
+  font-style: normal;
+  color: white;
 }
