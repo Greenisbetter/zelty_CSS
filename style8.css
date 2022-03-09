@@ -51,10 +51,11 @@ on passe la police en noir au lieu de #fb9f94
 on passe la taille à 16px
 */
 
-.items_list li a {
+.items_list li a,.items_list li .name{
     color: black;
     font-size: 1.4em;
 }
+
 
 /*
   Modification de la couleur du texte des titres principaux
