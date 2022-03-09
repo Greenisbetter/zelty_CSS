@@ -32,8 +32,7 @@ en medium 500
 /* 
 Pour supprimer le logo
 */
-
-#zwgth .logo {
+#zwgth.haslogo .logo, #zwgth .logo {
     display: none;
 }
 
@@ -94,6 +93,7 @@ on passe la taille à 16px
 .btn-primary[disabled]:active {
     background-color: #fb9f94;
     border-color: #fb9f94;
+    font-size:16px;
 }
 
 /*
@@ -107,6 +107,7 @@ on passe la taille à 16px
 .btn-primary:hover {
     background-color: #fb9e9459;
     border-color: #fb9f94;
+    font-size:16px;
 }
 
 /*
@@ -142,19 +143,10 @@ on passe la taille à 16px
 /* 
 Modifie juste la taille de police du nom du restaurant
 */
-
+.restaurant_selection .restaurants .active a,
 .restaurant_selection .restaurants a:hover,
 .restaurant_selection .restaurants a {
     font-size: 16px;
-    font-style: normal;
-    color: white;
-}
-
-/* 
-Modifie juste la taille de police de l'adresse du restaurant
-*/
-.restaurant_selection .restaurants .active a {
-    font-size: 15px;
     font-style: normal;
     color: white;
 }
