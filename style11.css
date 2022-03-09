@@ -119,6 +119,7 @@ on passe la taille à 16px
 /* 
 Modifie juste la taille de police du nom du restaurant
 */
+.restaurant_selection .restaurants .active a .a,
 .restaurant_selection .restaurants .active a,
 .restaurant_selection .restaurants a:hover,
 .restaurant_selection .restaurants a {
