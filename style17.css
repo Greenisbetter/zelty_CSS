@@ -9,10 +9,10 @@ Pour supprimer le logo
 */
 
 #zwgth.haslogo .logo {
-    visibility: hidden;
+    display: none;
 }
 
-#zwgth.haslogo h1 {
+#zwgth.haslogo{
     text-align: center;
 }
 
