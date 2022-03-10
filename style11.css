@@ -128,6 +128,10 @@ Modifie juste la taille de police du nom du restaurant
     color: white;
 }
 
+/* 
+Modifie juste la taille de police de l'adresse du restaurant
+*/
+
 .restaurant_selection .restaurants .active span,
 .restaurant_selection .restaurants span:hover ,
 .restaurant_selection .restaurants span{
