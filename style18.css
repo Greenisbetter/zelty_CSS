@@ -12,9 +12,14 @@ Pour supprimer le logo
     display: none;
 }
 
-#zwgth.haslogo{
-    text-align: center;
+/* 
+Pour supprimer le titre h1 "VOTRE RESTAURANT"
+*/
+#zwgth.haslogo h1 {
+    display: none;
 }
+
+
 
 /*
 Modification de la couleur du texte des liens et des boutons "prix" sur la carte
