@@ -7,7 +7,7 @@
 /* 
 Pour supprimer le logo
 */
-#zwgth.haslogo .logo, #zwgth .logo {
+#zwgth.haslogo .logo img, #zwgth .logo img{
     display: none;
 }
 
