@@ -7,12 +7,16 @@
 /* 
 Pour supprimer le logo
 */
-#zwgth.haslogo .logo a,
-#zwgth.haslogo .logo{
+
+#zwgth.haslogo .logo {
     display: none;
 }
 
-#zwgth.haslogo h1{
+#zwgth.haslogo .back {
+    display: none;
+}
+
+#zwgth.haslogo h1 {
     text-align: center;
 }
 
@@ -31,11 +35,11 @@ on passe la police en noir au lieu de #fb9f94
 on passe la taille à 16px
 */
 
-.items_list li a,.items_list li .name{
+.items_list li a,
+.items_list li .name {
     color: black;
     font-size: 1.4em;
 }
-
 
 /*
   Modification de la couleur du texte des titres principaux
@@ -74,7 +78,7 @@ on passe la taille à 16px
 .btn-primary[disabled]:active {
     background-color: #fb9f94;
     border-color: #fb9f94;
-    font-size:16px;
+    font-size: 16px;
 }
 
 /*
@@ -88,7 +92,7 @@ on passe la taille à 16px
 .btn-primary:hover {
     background-color: #fb9e9459;
     border-color: #fb9f94;
-    font-size:16px;
+    font-size: 16px;
 }
 
 /*
@@ -138,9 +142,9 @@ Modifie juste la taille de police de l'adresse du restaurant
 */
 
 .restaurant_selection .restaurants .active span,
-.restaurant_selection .restaurants span:hover ,
-.restaurant_selection .restaurants span{
-  font-size: 15px;
-  font-style: normal;
-  color: white;
+.restaurant_selection .restaurants span:hover,
+.restaurant_selection .restaurants span {
+    font-size: 15px;
+    font-style: normal;
+    color: white;
 }
