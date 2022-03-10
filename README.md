@@ -1,5 +1,9 @@
 # zelty_CSS
+La feuille de style est accessible en ligne (https) en utilisant jsdeliver
 
+
+
+LIENS UTILES
 https://www.greenisbetter.fr/
 https://drive.google.com/drive/folders/10hEXak3ve2xlOK9dhjzXkpMGE4thnrME
 
