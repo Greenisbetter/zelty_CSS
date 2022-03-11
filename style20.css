@@ -19,8 +19,6 @@ Pour supprimer le titre h1 "VOTRE RESTAURANT"
     visibility: hidden;
 }
 
-
-
 /*
 Modification de la couleur du texte des liens et des boutons "prix" sur la carte
 */
@@ -40,6 +38,11 @@ on passe la taille à 16px
 .items_list li .name {
     color: black;
     font-size: 1.4em;
+}
+
+.items_list li .description {
+    color: black;
+    font-size: 1em;
 }
 
 /*
